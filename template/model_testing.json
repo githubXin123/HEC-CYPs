@@ -1,0 +1,14 @@
+{
+	"prj_name": "Test_complete_2iso_20250423",
+    "test_data": "projects/Dataprep_test_complete_7iso/datasets",
+    "seed": 42,
+	"num_workers": 8,
+    "cuda_index": 0,
+    "verbose": true,
+    "loaded_model_pts": {
+        "cyp2b6": "/data1/shentao/models/CYPi_pretrained/Train_complete_2iso_20250421_weight/cyp2b6/best_e14_0.0319.pt",
+        "cyp2c8": "/data1/shentao/models/CYPi_pretrained/Train_complete_2iso_20250421_weight/cyp2c8/best_e8_0.3998.pt"
+      },
+    "decision_threshold": 0.0,
+    "isoforms": ["cyp2b6", "cyp2c8"]
+}

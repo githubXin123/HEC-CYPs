@@ -1,0 +1,21 @@
+{
+	"prj_name": "Finetune_complete_5iso_20250421",
+    "train_data": "projects/Dataprep_finetune_5iso_complete/datasets",
+    "seed": 42,
+	"num_workers": 8,
+    "cuda_index": 1,
+    "batch_size": 2,
+    "n_epochs": 20,
+    "verbose": true,
+    "patience": 5,
+    "best_model_pts": {
+        "cyp1a2": "/data1/shentao/models/CYPi_pretrained/Train_complete_5iso_20250421_weight/cyp1a2/best_e5_0.3354.pt",
+        "cyp2c9": "/data1/shentao/models/CYPi_pretrained/Train_complete_5iso_20250421_weight/cyp2c9/best_e3_0.4135.pt",
+        "cyp2c19": "/data1/shentao/models/CYPi_pretrained/Train_complete_5iso_20250421_weight/cyp2c19/best_e4_0.3860.pt",
+        "cyp2d6": "/data1/shentao/models/CYPi_pretrained/Train_complete_5iso_20250421_weight/cyp2d6/best_e3_0.3175.pt",
+        "cyp3a4": "/data1/shentao/models/CYPi_pretrained/Train_complete_5iso_20250421_weight/cyp3a4/best_e4_0.3598.pt"
+      },
+    "fixed": false,
+    "decision_threshold": 0.0,
+    "isoforms": ["cyp1a2", "cyp2c9", "cyp2c19", "cyp2d6", "cyp3a4"]
+}

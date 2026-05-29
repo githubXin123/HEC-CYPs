@@ -1,0 +1,13 @@
+{
+	"prj_name": "Train_complete_2iso_20250421",
+    "train_data": "projects/Dataprep_train_2iso_complete/datasets",
+    "seed": 42,
+	"num_workers": 8,
+    "cuda_index": 1,
+    "batch_size": 2,
+    "n_epochs": 20,
+    "verbose": true,
+    "patience": 3,
+    "decision_threshold": 0.0,
+    "isoforms": ["cyp2b6", "cyp2c8"]
+}

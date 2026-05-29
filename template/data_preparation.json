@@ -1,0 +1,8 @@
+{
+	"prj_name": "Dataprep_test_complete_7iso",
+    "seed": 42,
+	"num_workers": 16,
+    "verbose": true,
+    "task": "test_complete",
+    "isoforms": ["cyp1a2", "cyp2c9", "cyp2c19", "cyp2d6", "cyp3a4", "cyp2b6", "cyp2c8"]
+}
